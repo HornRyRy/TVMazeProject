@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+
+import '../App.css';
 import React from 'react'
 import { useState, useEffect } from 'react';
 
 
-//Fetch call variables - may delete block after project has been completed
+//Fetch call variables - will likely delete block after project has been completed
 //Remember to use %20 as a place holder for a space in a url
 
 //Query by name of actor
@@ -16,7 +16,7 @@ const terryQuery = "https://api.tvmaze.com/search/people?q=wil%20wheaton"
 const byIdSearch = "https://api.tvmaze.com/shows/670"
 
 //Query by name of show
-const byNameOfShow = "https://api.tvmaze.com/search/shows?q=big%20bang%20theory"
+const byNameOfShow = "https://api.tvmaze.com/search/shows?q=house%20of%20dragons"
 const byNameOfShowTwo = "https://api.tvmaze.com/search/shows?q=wednesday"
 const girlsQuery = "https://api.tvmaze.com/search/shows?q=girls"
 //Additionally, you can get an array of the episodes for the search with the following syntax:
@@ -47,7 +47,7 @@ function App() {
 
 const fetchData = async () =>{
   try{
-    const req = await fetch(girlsQuery)
+    const req = await fetch(byNameOfShow)
     const data = await req.json()
     //set state with state setter here
     setShows(data)
