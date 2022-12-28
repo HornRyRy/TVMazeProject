@@ -1,9 +1,15 @@
 import React from 'react'
 import { useState } from 'react'
 
-const ShowContainer = () => {
+const ShowContainer = ({someShows}) => {
   return (
-    <div>Inside ShowContainer component</div>
+    <div>
+        <p>Inside ShowContainer component</p>
+        <div>
+            
+        </div>
+
+        </div>
   )
 }
 

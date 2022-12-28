@@ -75,7 +75,7 @@ useEffect(() =>{
   return (
     <div className="App">
       
-      <ShowContainer />
+      <ShowContainer someShows={someShows} />
     </div>
   );
 }
