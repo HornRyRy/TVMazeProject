@@ -8,7 +8,7 @@ import { useState, useEffect } from 'react';
 //Remember to use %20 as a place holder for a space in a url
 
 //Query by name of actor
-const terryQuery = "https://api.tvmaze.com/search/people?q=terry%20crews"
+const terryQuery = "https://api.tvmaze.com/search/people?q=wil%20wheaton"
 
 
 //if you know the TVMaze's designated ID for a show, you can fetch that show directly
@@ -16,9 +16,29 @@ const terryQuery = "https://api.tvmaze.com/search/people?q=terry%20crews"
 const byIdSearch = "https://api.tvmaze.com/shows/670"
 
 //Query by name of show
-const byNameOfShow = "https://api.tvmaze.com/search/shows?q=family%20game%20fight"
-const byNameOfShowTwo = "https://api.tvmaze.com/search/shows?q=house"
+const byNameOfShow = "https://api.tvmaze.com/search/shows?q=big%20bang%20theory"
+const byNameOfShowTwo = "https://api.tvmaze.com/search/shows?q=wednesday"
 const girlsQuery = "https://api.tvmaze.com/search/shows?q=girls"
+//Additionally, you can get an array of the episodes for the search with the following syntax:
+const girlsWithEpisodes = "https://api.tvmaze.com/singlesearch/shows?q=girls&embed=episodes"
+//Using embeds (see https://www.tvmaze.com/api#embedding) you can query multiple items at once
+//For instance, the below query returns information about the show, plus 2 collections
+const anotherGirlsQuery = "https://api.tvmaze.com/shows/1?embed[]=episodes&embed[]=cast"
+
+//Query by Airing schedule - get an array of shows by air date-streaming services NOT included
+const byDateOfAir = "https://api.tvmaze.com/schedule?country=US&date=2022-12-28"
+
+//Query for cast - use show id
+const byShowGetCast = "https://api.tvmaze.com/shows/66/cast"
+
+//Query for Wil Wheaton's show appearances - TODO - not quite working as intended
+const whereIsWillBang = "https://api.tvmaze.com/people/12814/guestcastcredits?embed=show&embed=episode"
+const willHadDone = "https://api.tvmaze.com/shows?page=62"
+
+//query for show updates within a time period -TODO - not quite working
+const updatesByShow = "https://api.tvmaze.com/updates/shows?q=expanse&since=month"
+
+
 
 
 function App() {
