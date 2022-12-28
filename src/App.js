@@ -1,24 +1,33 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react'
+import { useState, useEffect } from 'react';
+
+
+const initialAPI = "http://someAPIaddress"
+const girlsQuery = "https://api.tvmaze.com/search/shows?q=girls"
 
 function App() {
+
+  const [shows, setShows] = useState([])
+
+const fetchData = async () =>{
+  try{
+    const req = await fetch(girlsQuery)
+    const data = await req.json()
+    //set state with state setter here
+    setShows(data)
+  }
+  catch (error){alert(error)}
+}
+
+useEffect(() =>{
+  fetchData()
+}, [])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      Here is some content
     </div>
   );
 }
