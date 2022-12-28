@@ -1,7 +1,8 @@
-
 import '../App.css';
 import React from 'react'
 import { useState, useEffect } from 'react';
+import ShowContainer from './ShowContainer';
+
 
 
 //Fetch call variables - will likely delete block after project has been completed
@@ -40,17 +41,29 @@ const updatesByShow = "https://api.tvmaze.com/updates/shows?q=expanse&since=mont
 
 
 
-
+//TODO - trying to store a collection of shows in a state variable
+//shows is never used? per console
 function App() {
 
-  const [shows, setShows] = useState([])
+  const [someShows, setSomeShows] = useState([])
 
+  //for now, query by shows 
 const fetchData = async () =>{
   try{
-    const req = await fetch(byNameOfShow)
-    const data = await req.json()
+    const resp = await fetch(byNameOfShow)
+    const data = await resp.json()
     //set state with state setter here
-    setShows(data)
+    setSomeShows(data)
+
+
+
+    //TODO lets get an array of objects from a search query
+
+    // const currentShows = shows.map(show => {
+    //   return {...show}
+    // })
+
+    // //setSomeShows(currentShows)
   }
   catch (error){alert(error)}
 }
@@ -61,7 +74,8 @@ useEffect(() =>{
 
   return (
     <div className="App">
-      Here is some content
+      
+      <ShowContainer />
     </div>
   );
 }
