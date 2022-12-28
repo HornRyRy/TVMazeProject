@@ -6,6 +6,11 @@ import { useState, useEffect } from 'react';
 
 const initialAPI = "http://someAPIaddress"
 const girlsQuery = "https://api.tvmaze.com/search/shows?q=girls"
+const terryQuery = "https://api.tvmaze.com/search/people?q=terry%20crews"
+const brooklynQuery = "https://api.tvmaze.com/shows/6924/cast"
+const byIdSearch = ""
+const familyGameFight = "https://api.tvmaze.com/search/shows?q=family%20game%20fight"
+//const findJC = "https://api.tvmaze.com/search/people?q=terry%20crews"
 
 function App() {
 
