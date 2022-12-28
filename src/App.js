@@ -4,13 +4,22 @@ import React from 'react'
 import { useState, useEffect } from 'react';
 
 
-const initialAPI = "http://someAPIaddress"
-const girlsQuery = "https://api.tvmaze.com/search/shows?q=girls"
+//Fetch call variables - may delete block after project has been completed
+//Remember to use %20 as a place holder for a space in a url
+
+//Query by name of actor
 const terryQuery = "https://api.tvmaze.com/search/people?q=terry%20crews"
-const brooklynQuery = "https://api.tvmaze.com/shows/6924/cast"
-const byIdSearch = ""
-const familyGameFight = "https://api.tvmaze.com/search/shows?q=family%20game%20fight"
-//const findJC = "https://api.tvmaze.com/search/people?q=terry%20crews"
+
+
+//if you know the TVMaze's designated ID for a show, you can fetch that show directly
+//Example show below is searching by show id 670, which is Luther
+const byIdSearch = "https://api.tvmaze.com/shows/670"
+
+//Query by name of show
+const byNameOfShow = "https://api.tvmaze.com/search/shows?q=family%20game%20fight"
+const byNameOfShowTwo = "https://api.tvmaze.com/search/shows?q=house"
+const girlsQuery = "https://api.tvmaze.com/search/shows?q=girls"
+
 
 function App() {
 
