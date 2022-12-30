@@ -39,6 +39,8 @@ const willHadDone = "https://api.tvmaze.com/shows?page=62"
 //query for show updates within a time period -TODO - not quite working
 const updatesByShow = "https://api.tvmaze.com/updates/shows?q=expanse&since=month"
 
+const byActor = ""
+
 
 
 //TODO - trying to store a collection of shows in a state variable
@@ -50,10 +52,10 @@ function App() {
   //for now, query by shows 
 const fetchData = async () =>{
   try{
-    const resp = await fetch(byNameOfShow)
-    const data = await resp.json()
+    const resp = await fetch(girlsQuery)
+    const someShows = await resp.json()
     //set state with state setter here
-    setSomeShows(data)
+    setSomeShows(someShows)
 
 
 
@@ -71,6 +73,8 @@ const fetchData = async () =>{
 useEffect(() =>{
   fetchData()
 }, [])
+
+
 
   return (
     <div className="App">
