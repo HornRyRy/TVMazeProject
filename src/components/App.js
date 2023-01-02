@@ -19,7 +19,8 @@ const byIdSearch = "https://api.tvmaze.com/shows/670"
 //Query by name of show
 const byNameOfShow = "https://api.tvmaze.com/search/shows?q=house%20of%20dragons"
 const byNameOfShowTwo = "https://api.tvmaze.com/search/shows?q=wednesday"
-const girlsQuery = "https://api.tvmaze.com/search/shows?q=girls"
+
+const girlsQuery = `https://api.tvmaze.com/search/shows?q=girls`
 //Additionally, you can get an array of the episodes for the search with the following syntax:
 const girlsWithEpisodes = "https://api.tvmaze.com/singlesearch/shows?q=girls&embed=episodes"
 //Using embeds (see https://www.tvmaze.com/api#embedding) you can query multiple items at once
@@ -43,16 +44,21 @@ const byActor = ""
 
 
 
+
 //TODO - trying to store a collection of shows in a state variable
 //shows is never used? per console
 function App() {
-
+ 
   const [someShows, setSomeShows] = useState([])
+
+  const hardCodedSearchVariable = "brooklyn"
+  const varQuery = `https://api.tvmaze.com/search/shows?q=${hardCodedSearchVariable}`
+  
 
   //for now, query by shows 
 const fetchData = async () =>{
   try{
-    const resp = await fetch(girlsQuery)
+    const resp = await fetch(varQuery)
     const someShows = await resp.json()
     //set state with state setter here
     setSomeShows(someShows)
