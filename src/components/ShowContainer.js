@@ -5,8 +5,6 @@ import Show from './Show'
 const ShowContainer = ({someShows}) => {
   
 
- 
-  
     return (
     <div>
         

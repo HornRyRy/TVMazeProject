@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Show = ({status, name, img }) => {
+const Show = ({status="not found", name="not found", img }) => {
   return (
     <div>
         <div>{name}</div>
