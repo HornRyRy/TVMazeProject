@@ -79,7 +79,7 @@ const fetchData = async () =>{
 
 useEffect(() =>{
   fetchData()
-}, [])
+}, [])        //dependencies array - run once if array is empty
 
 
 
