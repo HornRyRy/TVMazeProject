@@ -5,9 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image:url('./movie-background.jpeg') ;
+  background-size:cover;
+  background-attachment:fixed;
+  color:white
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.searchResultCard {
+  display: flex;
+  flex-direction: column;
+} 
+

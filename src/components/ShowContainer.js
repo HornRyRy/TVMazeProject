@@ -8,9 +8,8 @@ const ShowContainer = ({someShows}) => {
   
 
     return (
-    <div>
-        
-        <div>
+    <div id='showSearchCardParent'> 
+        <div id='searchResultCard'>
             {someShows.map(show => <Show 
             key={show.show.id} 
             name={show.show.name} 
