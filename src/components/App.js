@@ -40,7 +40,7 @@ const willHadDone = "https://api.tvmaze.com/shows?page=62"
 //query for show updates within a time period -TODO - not quite working
 const updatesByShow = "https://api.tvmaze.com/updates/shows?q=expanse&since=month"
 
-const byActor = ""
+const byActor = "https://api.tvmaze.com/search/people?q=terry%20crews"
 
 
 
@@ -51,7 +51,8 @@ function App() {
  
   const [someShows, setSomeShows] = useState([])
 
-  const hardCodedSearchVariable = "brooklyn"
+  //You can use the below variable to quickly test querys
+  const hardCodedSearchVariable = "girls"
   const varQuery = `https://api.tvmaze.com/search/shows?q=${hardCodedSearchVariable}`
   
 
