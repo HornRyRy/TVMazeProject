@@ -7,7 +7,7 @@ const Show = ({status="not found", name="not found", img }) => {
         <div>{status}</div>
         <img
         src = {img}
-        //alt = {name}
+        alt = {"image for " + name + " not found"}
         />
         
     </div>

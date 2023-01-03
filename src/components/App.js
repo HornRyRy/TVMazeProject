@@ -48,13 +48,15 @@ const byActor = "https://api.tvmaze.com/search/people?q=terry%20crews"
 //TODO - trying to store a collection of shows in a state variable
 //shows is never used? per console
 function App() {
- 
+
   const [someShows, setSomeShows] = useState([])
 
   //You can use the below variable to quickly test querys
   const hardCodedSearchVariable = "girls"
   const varQuery = `https://api.tvmaze.com/search/shows?q=${hardCodedSearchVariable}`
   
+
+
 
   //for now, query by shows 
 const fetchData = async () =>{
@@ -80,7 +82,6 @@ const fetchData = async () =>{
 useEffect(() =>{
   fetchData()
 }, [])        //dependencies array - run once if array is empty
-
 
 
   return (
