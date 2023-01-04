@@ -1,21 +1,26 @@
 import React, {useState} from 'react'
 
-const ShowSearch = ({queryByShow, setQueryByShow}) => {
+//some code
+
+const ShowSearch = ({queryByShow, setQueryByShow, handleSearch}) => {
     //const [search, setSearch] =useState('')
 
-    const handleSearch = event => {
-        setQueryByShow(event.target.value)
-    }
+    //handleSearch()
+
+    // const handleSearch = event => {
+    //     setQueryByShow(event.target.value)
+    // }
     
 
   return (
     <>
-            <label>Name of Show </label>
+
+        <label>Name of Show </label>
             <input 
                 id='searchInput'
                 type='text'
                 name='showName'
-                value={queryByShow.name}
+                value={queryByShow}
                 onChange={handleSearch}
             ></input>
 

@@ -10,7 +10,9 @@ const Show = ({status="not found", name="not found", img }) => {
         //img ? {img} : {ferretpic}
         alt = {name}
         />
-        <button className='likeButton'> 👍 </button>
+
+        <button className='likeButton'>👍</button>
+
     </div>
   )
 }
