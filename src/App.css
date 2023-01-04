@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  text-align: center; 
+  display:flex;
 }
 
 .App-logo {
@@ -12,6 +13,15 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+body {
+  background-image:url('./movie-background.jpeg') ;
+  background-size:cover;
+  background-attachment:fixed;
+  color:white
+
+}
+
 
 .App-header {
   background-color: #282c34;
@@ -38,11 +48,8 @@
 }
 
 .searchResultCard {
-  display: flex;
-  flex-direction: row;
-
-} 
+}
 
 #searchCard {
-
+  flex-direction: row;
 }
