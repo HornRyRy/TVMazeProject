@@ -46,16 +46,14 @@ const byActor = "https://api.tvmaze.com/search/people?q=terry%20crews"
 
 
 
-//TODO - trying to store a collection of shows in a state variable
-//shows is never used? per console
 function App() {
 
   const [someShows, setSomeShows] = useState([])
   const [queryByShow, setQueryByShow] = useState([])
 
-  //You can use the below variable to quickly test querys
+
   const hardCodedSearchVariable = "simpsons"
-  const varQuery = `https://api.tvmaze.com/search/shows?q=${hardCodedSearchVariable}`
+  const varQuery = `https://api.tvmaze.com/search/shows?q=${queryByShow}`
   
 
 
@@ -68,32 +66,26 @@ const fetchData = async () =>{
     //set state with state setter here
     setSomeShows(someShows)
 
-
-
-    //TODO lets get an array of objects from a search query
-
-    // const currentShows = shows.map(show => {
-    //   return {...show}
-    // })
-
-    // //setSomeShows(currentShows)
   }
   catch (error){alert(error)}
 }
 
-console.log(someShows)
-
 useEffect(() =>{
   fetchData()
-}, [])        //dependencies array - run once if array is empty
+}, [varQuery])        //dependencies array - run once if array is empty
+
+const handleSearch = event => {
+  setQueryByShow(event.target.value)
+  console.log(event.target.value)
+  console.log("in handleSearch APP")
+  console.log(queryByShow)
+}
 
 
   return (
     <div className="App">
 
-      <ShowSearch />
-
-      <ShowSearch queryByShow = {queryByShow} setQueryByShow={setQueryByShow} />
+      <ShowSearch queryByShow = {queryByShow} setQueryByShow={setQueryByShow} handleSearch={handleSearch} />
 
       <ShowContainer someShows={someShows} />
     </div>

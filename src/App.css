@@ -1,6 +1,6 @@
 .App {
   text-align: center; 
-  display:flex;
+
 }
 
 .App-logo {
@@ -57,4 +57,11 @@ body {
   background-color: black;
   display: flex;
   flex-direction: column;
+
+  width:100%;
+}
+
+#searchInput {
+  width: 25%;
+  justify-content: center;display:grid;
 }
