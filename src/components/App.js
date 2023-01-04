@@ -2,6 +2,7 @@ import '../App.css';
 import React from 'react'
 import { useState, useEffect } from 'react';
 import ShowContainer from './ShowContainer';
+import ShowSearch from './ShowSearch';
 
 
 
@@ -50,10 +51,11 @@ const byActor = "https://api.tvmaze.com/search/people?q=terry%20crews"
 function App() {
 
   const [someShows, setSomeShows] = useState([])
+  const [queryByShow, setQueryByShow] = useState([])
 
   //You can use the below variable to quickly test querys
   const hardCodedSearchVariable = "simpsons"
-  const varQuery = `https://api.tvmaze.com/search/shows?q=${hardCodedSearchVariable}`
+  const varQuery = `https://api.tvmaze.com/search/shows?q=${queryByShow}`
   
 
 
@@ -88,7 +90,7 @@ useEffect(() =>{
 
   return (
     <div className="App">
-      
+      <ShowSearch queryByShow = {queryByShow} setQueryByShow={setQueryByShow} />
       <ShowContainer someShows={someShows} />
     </div>
   );
