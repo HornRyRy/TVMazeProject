@@ -10,7 +10,6 @@ const ShowSearch = ({queryByShow, setQueryByShow}) => {
 
   return (
     <>
-        <form id='header'>
             <label>Name of Show </label>
             <input 
                 id='searchInput'
@@ -20,7 +19,6 @@ const ShowSearch = ({queryByShow, setQueryByShow}) => {
                 onChange={handleSearch}
             ></input>
 
-        </form>
     </>
   )
 }
