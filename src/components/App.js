@@ -55,7 +55,7 @@ function App() {
 
   //You can use the below variable to quickly test querys
   const hardCodedSearchVariable = "simpsons"
-  const varQuery = `https://api.tvmaze.com/search/shows?q=${queryByShow}`
+  const varQuery = `https://api.tvmaze.com/search/shows?q=${hardCodedSearchVariable}`
   
 
 
