@@ -15,14 +15,15 @@ const ShowSearch = ({queryByShow, setQueryByShow, handleSearch}) => {
   return (
     <>
 
+
             <label>Name of Show </label>
             <input 
+                className='showSearchBar'
                 type='text'
                 name='showName'
                 value={queryByShow}
                 onChange={handleSearch}
             ></input>
-
 
     </>
   )

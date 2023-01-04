@@ -84,7 +84,9 @@ const handleSearch = event => {
 
   return (
     <div className="App">
+
       <ShowSearch queryByShow = {queryByShow} setQueryByShow={setQueryByShow} handleSearch={handleSearch} />
+
       <ShowContainer someShows={someShows} />
     </div>
   );
