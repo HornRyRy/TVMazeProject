@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.searchResultCard {
+  display: flex;
+  flex-direction: row;
+
+} 
+
+#searchCard {
+
+}

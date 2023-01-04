@@ -18,7 +18,9 @@ const ShowContainer = ({someShows}) => {
 
 const mappedShows = someShows.map((show) =>{
     return (
-        <Show key = {show.show.id}
+        <Show 
+       
+        key = {show.show.id}
         name = {show.show.name}
         status = {show.show.status}
         img = {show.show.image && show.show.image.medium || ferretSmall }

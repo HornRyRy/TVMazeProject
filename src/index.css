@@ -17,8 +17,4 @@ code {
     monospace;
 }
 
-.searchResultCard {
-  display: flex;
-  flex-direction: column;
-} 
 
