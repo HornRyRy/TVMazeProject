@@ -5,16 +5,6 @@ import ferretSmall from '../ferretSmall.jpg'
 //TODO - can we put the picture into the assets folder? how to navigate to?
 
 const ShowContainer = ({someShows}) => {
-      
-// const handleImage = (image) =>{
-//     if (!image){
-//         return ferretSmall
-//     }
-//     else{
-//         return image
-//     }
-// }
-
 
 const mappedShows = someShows.map((show) =>{
     return (
