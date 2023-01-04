@@ -2,7 +2,7 @@ import '../App.css';
 import React from 'react'
 import { useState, useEffect } from 'react';
 import ShowContainer from './ShowContainer';
-
+import ShowSearch from './ShowSearch';
 
 
 //Fetch call variables - will likely delete block after project has been completed
@@ -88,7 +88,7 @@ useEffect(() =>{
 
   return (
     <div className="App">
-      
+      <ShowSearch />
       <ShowContainer someShows={someShows} />
     </div>
   );

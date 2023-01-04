@@ -12,15 +12,16 @@ const ShowSearch = () => {
 
   return (
     <>
-        <form>
+        <form id='header'>
             <label>Name of Show </label>
             <input 
+                className='showSearchBar'
                 type='text'
                 name='name'
                 value={search}
                 onChange={handleSearch}
             ></input>
-
+            <button className='searchButton'>Search</button>
         </form>
     </>
   )

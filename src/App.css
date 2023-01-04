@@ -18,7 +18,7 @@ body {
   background-image:url('./movie-background.jpeg') ;
   background-size:cover;
   background-attachment:fixed;
-  color:white
+  color:rgb(14, 12, 12)
 
 }
 
@@ -47,9 +47,23 @@ body {
   }
 }
 
-.searchResultCard {
+#searchResultCard {
+  border: 3px solid black;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  columns: 4;
 }
 
-#searchCard {
-  flex-direction: row;
+.searchCard {
+  flex-direction: column;
+  border: 3px solid black;
+  background-color: rgba(211,211,211,.6);
+  order:4;
+  margin:1%;
+}
+
+#header {
+  width: 100%;
+  background-color: black;
 }
