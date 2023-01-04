@@ -14,7 +14,7 @@ const ShowSearch = ({queryByShow, setQueryByShow, handleSearch}) => {
 
   return (
     <>
-        <form>
+
             <label>Name of Show </label>
             <input 
                 type='text'
@@ -23,7 +23,7 @@ const ShowSearch = ({queryByShow, setQueryByShow, handleSearch}) => {
                 onChange={handleSearch}
             ></input>
 
-        </form>
+
     </>
   )
 }

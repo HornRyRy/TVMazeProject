@@ -53,7 +53,7 @@ function App() {
 
 
   const hardCodedSearchVariable = "simpsons"
-  const varQuery = `https://api.tvmaze.com/search/shows?q=${hardCodedSearchVariable}`
+  const varQuery = `https://api.tvmaze.com/search/shows?q=${queryByShow}`
   
 
 
@@ -72,7 +72,7 @@ const fetchData = async () =>{
 
 useEffect(() =>{
   fetchData()
-}, [])        //dependencies array - run once if array is empty
+}, [varQuery])        //dependencies array - run once if array is empty
 
 const handleSearch = event => {
   setQueryByShow(event.target.value)
