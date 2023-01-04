@@ -58,3 +58,8 @@ body {
   flex-direction: column;
   width:100%;
 }
+
+#searchInput {
+  width: 25%;
+  justify-content: center;display:grid;
+}

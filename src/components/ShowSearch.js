@@ -13,6 +13,7 @@ const ShowSearch = ({queryByShow, setQueryByShow}) => {
         <form id='header'>
             <label>Name of Show </label>
             <input 
+                id='searchInput'
                 type='text'
                 name='showName'
                 value={queryByShow.name}

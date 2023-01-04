@@ -8,6 +8,7 @@ const ShowContainer = ({someShows}) => {
       
 
 const mappedShows = someShows.map((show) =>{
+
     return (
         <Show 
        
@@ -19,7 +20,7 @@ const mappedShows = someShows.map((show) =>{
          {...show}
          />)
   })
-
+console.log(someShows)
 
     return (
     
