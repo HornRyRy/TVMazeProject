@@ -40,19 +40,35 @@ body {
   flex-wrap: wrap;
 }
 
-.searchCard {
+#searchCard {
   flex-direction: column;
   background-color: rgba(211,211,211,.7);
   margin:1%;
   width: 15rem;
   height: 25rem;
-  box-shadow: 6px 9px black
+  box-shadow: 6px 9px black;
+  color: white;
 }
 
-#header {
-  color:white;
+.header {
   display:block;
   background-color: black;
-  display: flex;
-  flex-direction: column;
+  align-content: center;
+  display: grid;
+  justify-content: center;
+  position:sticky;
+  top:0;
 }
+
+.label {
+  color:white;
+  }
+
+  .siteTitle {
+    color:white;
+    font-size:2rem;
+  }
+
+  .likeButton {
+
+  }

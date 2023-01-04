@@ -1,10 +1,13 @@
 import React from 'react'
 
 const Show = ({status="not found", name="not found", img }) => {
+
+  
+
   return (
-    <div className = {'searchCard'}>
-        <div>{name}</div>
-        <div>{status}</div>
+    <div id = {'searchCard'}>
+        <div className='label'>{name}</div>
+        <div className='label'>{status}</div>
         <img
         src = {img}
         //img ? {img} : {ferretpic}

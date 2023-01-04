@@ -11,7 +11,6 @@ const mappedShows = someShows.map((show) =>{
 
     return (
         <Show 
-       
         key = {show.show.id}
         name = {show.show.name}
         status = {show.show.status}

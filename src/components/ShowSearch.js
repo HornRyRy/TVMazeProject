@@ -13,18 +13,18 @@ const ShowSearch = ({queryByShow, setQueryByShow, handleSearch}) => {
     
 
   return (
-    <>
 
-        <label>Name of Show </label>
+    <div className='header'>    
+        <label className='siteTitle'>Search Shows </label>
+            
             <input 
-                id='searchInput'
                 type='text'
                 name='showName'
                 value={queryByShow}
                 onChange={handleSearch}
             ></input>
+    </div>
 
-    </>
   )
 }
 
