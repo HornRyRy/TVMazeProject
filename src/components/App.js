@@ -5,6 +5,7 @@ import ShowContainer from './ShowContainer';
 import ShowSearch from './ShowSearch';
 
 
+
 //Fetch call variables - will likely delete block after project has been completed
 //Remember to use %20 as a place holder for a space in a url
 
@@ -50,10 +51,11 @@ const byActor = "https://api.tvmaze.com/search/people?q=terry%20crews"
 function App() {
 
   const [someShows, setSomeShows] = useState([])
+  const [queryByShow, setQueryByShow] = useState([])
 
   //You can use the below variable to quickly test querys
   const hardCodedSearchVariable = "simpsons"
-  const varQuery = `https://api.tvmaze.com/search/shows?q=${hardCodedSearchVariable}`
+  const varQuery = `https://api.tvmaze.com/search/shows?q=${queryByShow}`
   
 
 
@@ -88,7 +90,11 @@ useEffect(() =>{
 
   return (
     <div className="App">
+
       <ShowSearch />
+
+      <ShowSearch queryByShow = {queryByShow} setQueryByShow={setQueryByShow} />
+
       <ShowContainer someShows={someShows} />
     </div>
   );

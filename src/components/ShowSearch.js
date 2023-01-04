@@ -1,12 +1,10 @@
 import React, {useState} from 'react'
 
-//some code
-
-const ShowSearch = () => {
-    const [search, setSearch] =useState('')
+const ShowSearch = ({queryByShow, setQueryByShow}) => {
+    //const [search, setSearch] =useState('')
 
     const handleSearch = event => {
-        setSearch(event.target.value)
+        setQueryByShow(event.target.value)
     }
     
 
@@ -17,8 +15,8 @@ const ShowSearch = () => {
             <input 
                 className='showSearchBar'
                 type='text'
-                name='name'
-                value={search}
+                name='showName'
+                value={queryByShow.name}
                 onChange={handleSearch}
             ></input>
             {/* <button className='searchButton'>Search</button> */}
