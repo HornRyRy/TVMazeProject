@@ -90,11 +90,7 @@ useEffect(() =>{
 
   return (
     <div className="App">
-
-      <ShowSearch />
-
       <ShowSearch queryByShow = {queryByShow} setQueryByShow={setQueryByShow} />
-
       <ShowContainer someShows={someShows} />
     </div>
   );

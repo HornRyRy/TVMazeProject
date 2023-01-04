@@ -5,6 +5,7 @@ import ferretSmall from '../ferretSmall.jpg'
 //TODO - can we put the picture into the assets folder? how to navigate to?
 
 const ShowContainer = ({someShows}) => {
+      
 
 const mappedShows = someShows.map((show) =>{
     return (
@@ -31,7 +32,6 @@ const mappedShows = someShows.map((show) =>{
             // TODO add ternary for img in case server doesn't have image
             img ={show.show.image.medium}
             {...show}
-
              />)}  */}
         </div>
 
