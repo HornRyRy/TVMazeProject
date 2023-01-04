@@ -79,6 +79,8 @@ const fetchData = async () =>{
   catch (error){alert(error)}
 }
 
+console.log(someShows)
+
 useEffect(() =>{
   fetchData()
 }, [])        //dependencies array - run once if array is empty
