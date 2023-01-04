@@ -3,6 +3,7 @@ import React from 'react'
 import { useState, useEffect } from 'react';
 import ShowContainer from './ShowContainer';
 import ShowSearch from './ShowSearch';
+import { BrowserRouter }  from 'react-router-dom';
 
 
 
@@ -89,11 +90,18 @@ useEffect(() =>{
 
 
   return (
-    <div className="App">
-      <ShowSearch queryByShow = {queryByShow} setQueryByShow={setQueryByShow} />
-      <ShowContainer someShows={someShows} />
-    </div>
-  );
+    <BrowserRouter>
+      <div className="App">
+        <ShowSearch 
+          queryByShow = {queryByShow}   
+          setQueryByShow={setQueryByShow} />
+        <ShowContainer 
+          someShows={someShows} />
+      </div>
+    </BrowserRouter>
+  )
+  
+  
 }
 
 export default App;
