@@ -1,6 +1,5 @@
 .App {
   text-align: center; 
-  display:flex;
 }
 
 .App-logo {
@@ -57,4 +56,5 @@ body {
   background-color: black;
   display: flex;
   flex-direction: column;
+  width:100%;
 }
