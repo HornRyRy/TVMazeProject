@@ -1,11 +1,15 @@
 import React, {useState} from 'react'
 
-const ShowSearch = ({queryByShow, setQueryByShow}) => {
+//some code
+
+const ShowSearch = ({queryByShow, setQueryByShow, handleSearch}) => {
     //const [search, setSearch] =useState('')
 
-    const handleSearch = event => {
-        setQueryByShow(event.target.value)
-    }
+    //handleSearch()
+
+    // const handleSearch = event => {
+    //     setQueryByShow(event.target.value)
+    // }
     
 
   return (
@@ -15,7 +19,7 @@ const ShowSearch = ({queryByShow, setQueryByShow}) => {
             <input 
                 type='text'
                 name='showName'
-                value={queryByShow.name}
+                value={queryByShow}
                 onChange={handleSearch}
             ></input>
 
