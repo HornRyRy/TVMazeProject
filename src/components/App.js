@@ -52,7 +52,7 @@ function App() {
   const [someShows, setSomeShows] = useState([])
 
   //You can use the below variable to quickly test querys
-  const hardCodedSearchVariable = "girls"
+  const hardCodedSearchVariable = "simpsons"
   const varQuery = `https://api.tvmaze.com/search/shows?q=${hardCodedSearchVariable}`
   
 

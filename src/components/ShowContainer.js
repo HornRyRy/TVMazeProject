@@ -6,12 +6,23 @@ import ferretSmall from '../ferretSmall.jpg'
 
 const ShowContainer = ({someShows}) => {
       
+// const handleImage = (image) =>{
+//     if (!image){
+//         return ferretSmall
+//     }
+//     else{
+//         return image
+//     }
+// }
+
+
 const mappedShows = someShows.map((show) =>{
     return (
         <Show key = {show.show.id}
         name = {show.show.name}
         status = {show.show.status}
-        img = {show.show.image.medium}
+        img = {show.show.image && show.show.image.medium || ferretSmall }
+        
          {...show}
          />)
   })
