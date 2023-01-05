@@ -69,6 +69,19 @@ body {
     font-size:2rem;
   }
 
-  .likeButton {
+  #reviews {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    
+    bottom: 0;
+    margin:auto;
+    position:fixed;
+    left:38%;
 
+  }
+
+  .submitButton {
+    width: 8rem;
+    margin:auto;
   }

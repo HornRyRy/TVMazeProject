@@ -1,0 +1,10 @@
+{
+  "reviews": [
+    {
+      "id": 1,
+      "name": "json-server",
+      "review": "typicode"
+    }
+    
+  ]
+}

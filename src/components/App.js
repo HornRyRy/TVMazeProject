@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import ShowContainer from './ShowContainer';
 import ShowSearch from './ShowSearch';
 import { BrowserRouter }  from 'react-router-dom';
-
+import ReviewForm from './ReviewForm';
 
 
 //Fetch call variables - will likely delete block after project has been completed
@@ -48,7 +48,7 @@ const byActor = "https://api.tvmaze.com/search/people?q=terry%20crews"
 
 
 function App() {
-
+  const [reviews, setReviews] = useState([])
   const [someShows, setSomeShows] = useState([])
   const [queryByShow, setQueryByShow] = useState([])
 
@@ -87,6 +87,8 @@ const handleSearch = event => {
       <ShowSearch queryByShow = {queryByShow} setQueryByShow={setQueryByShow} handleSearch={handleSearch} />
 
       <ShowContainer someShows={someShows} />
+      <ReviewForm 
+        setReviews={setReviews}/>
     </div>
   );
 }

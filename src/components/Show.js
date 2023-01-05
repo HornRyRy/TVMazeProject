@@ -1,7 +1,12 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 const Show = ({status="not found", name="not found", img }) => {
+const [likeCount, setLikeCount] = useState(0)
 
+const incrementCount = (event) => {
+
+
+}
 
   return (
     <div id = {'searchCard'}>
@@ -13,7 +18,10 @@ const Show = ({status="not found", name="not found", img }) => {
         alt = {name}
         />
 
-        <button className='likeButton'>👍</button>
+        <button 
+          onClick={incrementCount} 
+          className='likeButton'>👍 : {likeCount} </button>
+        
 
     </div>
   )

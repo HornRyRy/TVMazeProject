@@ -15,7 +15,7 @@ const ShowSearch = ({queryByShow, setQueryByShow, handleSearch}) => {
   return (
 
     <div className='header'>    
-        <label className='siteTitle'>Search Shows </label>
+        <label className='siteTitle'> TV Show Explorer </label>
             
             <input 
                 type='text'
