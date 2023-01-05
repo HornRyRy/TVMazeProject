@@ -1,11 +1,17 @@
 import React, {useState} from 'react'
 
 const Show = ({status="not found", name="not found", img }) => {
-const [likeCount, setLikeCount] = useState(0)
 
-const incrementCount = (event) => {
-
-
+  const handleClick = async (e) =>{
+    //console.log("inside handleclick")
+    const resp = await fetch("http://localhost:3000/favorites",{
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        method: 'POST',
+        // body: JSON.stringify(SOMEVARIABLE)
+        
+    })
 }
 
   return (
@@ -14,13 +20,14 @@ const incrementCount = (event) => {
         <div className='label'>{status}</div>
         <img
         src = {img}
-        //img ? {img} : {ferretpic}
         alt = {name}
         />
 
         <button 
-          onClick={incrementCount} 
-          className='likeButton'>👍 : {likeCount} </button>
+          onClick={handleClick} 
+          className='likeButton'
+          name='likeBtn'
+          >👍</button>
         
 
     </div>

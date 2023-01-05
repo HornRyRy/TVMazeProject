@@ -4,7 +4,14 @@
       "id": 1,
       "name": "json-server",
       "review": "typicode"
+    },
+    {
+      "favorites": []
+    },
+    {
+      "name": "asdfasdf",
+      "review": "asdfasdf",
+      "id": 2
     }
-    
   ]
 }
