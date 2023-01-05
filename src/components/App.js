@@ -56,9 +56,6 @@ function App() {
   const hardCodedSearchVariable = "simpsons"
   const varQuery = `https://api.tvmaze.com/search/shows?q=${queryByShow}`
   
-
-
-
   //for now, query by shows 
 const fetchData = async () =>{
   try{

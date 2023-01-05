@@ -2,7 +2,6 @@ import React from 'react'
 
 const Show = ({status="not found", name="not found", img }) => {
 
-  
 
   return (
     <div id = {'searchCard'}>
