@@ -38,6 +38,7 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  height: 50%;
 }
 
 #searchCard {
@@ -73,11 +74,8 @@ body {
     display: flex;
     flex-direction: column;
     width: 25%;
-    bottom: 0;
     margin:auto;
-    position:fixed;
     left:38%;
-
   }
 
   .submitButton {
@@ -87,4 +85,10 @@ body {
 
   #text {
     color:white;
+  }
+
+  a { 
+    color:white;
+    display:inline-block;
+    width: 33.33%;
   }

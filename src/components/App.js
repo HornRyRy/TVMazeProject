@@ -54,6 +54,7 @@ function App() {
   const [queryByShow, setQueryByShow] = useState([])
 
 
+
   const hardCodedSearchVariable = "simpsons"
   const varQuery = `https://api.tvmaze.com/search/shows?q=${queryByShow}`
   
@@ -73,6 +74,8 @@ useEffect(() =>{
   fetchData()
 }, [varQuery])        //dependencies array - run once if array is empty
 
+
+
 const handleSearch = event => {
   setQueryByShow(event.target.value)
   console.log(event.target.value)
@@ -85,10 +88,10 @@ const handleSearch = event => {
       <main className="App">
       
       <nav>
-        <ul className='label'>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/reviews/new">Create New Review</Link></li>
-          <li><Link to="/reviews">Reviews</Link></li>
+        <ul id='navBar'>
+          <Link to="/">Home</Link>
+          <Link to="/reviews/new">Create New Review</Link>
+          <Link to="/reviews">Reviews</Link>
         </ul>
 
       </nav>
