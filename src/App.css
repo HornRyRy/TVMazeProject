@@ -48,7 +48,8 @@ body {
   height: 25rem;
   box-shadow: 6px 9px black;
   color: white;
-}
+  margin-left: auto;
+  margin-right: auto}
 
 .header {
   display:block;
@@ -101,7 +102,7 @@ body {
 
   #reviewContainer {
     display:flex;
-    overflow: scroll;
+    /* overflow: scroll; */
     order:3;
     height:10rem;
   }
@@ -114,4 +115,6 @@ body {
   height: 25rem;
   box-shadow: 6px 9px black;
   color: white;
+  overflow: scroll;
+
   }
