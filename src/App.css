@@ -73,7 +73,6 @@ body {
     display: flex;
     flex-direction: column;
     width: 25%;
-    
     bottom: 0;
     margin:auto;
     position:fixed;
@@ -84,4 +83,8 @@ body {
   .submitButton {
     width: 8rem;
     margin:auto;
+  }
+
+  #text {
+    color:white;
   }

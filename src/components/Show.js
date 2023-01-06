@@ -4,15 +4,20 @@ const Show = ({status="not found", name="not found", img }) => {
 
   const handleClick = async (e) =>{
     //console.log("inside handleclick")
-    const resp = await fetch("http://localhost:3000/favorites",{
+    const postFavorite = {
+     
+    }
+    const resp = await fetch("http://localhost:8888/favorites",{
         headers: {
             'Content-Type': 'application/json'
         },
         method: 'POST',
-        // body: JSON.stringify(SOMEVARIABLE)
+        body: JSON.stringify(postFavorite)
         
     })
 }
+
+
 
   return (
     <div id = {'searchCard'}>

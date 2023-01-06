@@ -3,8 +3,9 @@ import React from 'react'
 import { useState, useEffect } from 'react';
 import ShowContainer from './ShowContainer';
 import ShowSearch from './ShowSearch';
-import { BrowserRouter }  from 'react-router-dom';
+import { Route, Routes, Link}  from 'react-router-dom';
 import ReviewForm from './ReviewForm';
+import ReviewContainer from './ReviewContainer';
 
 
 //Fetch call variables - will likely delete block after project has been completed
@@ -81,15 +82,26 @@ const handleSearch = event => {
 
 
   return (
+      <main className="App">
+      
+      <nav>
+        <ul className='label'>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/reviews/new">Create New Review</Link></li>
+          <li><Link to="/reviews">Reviews</Link></li>
+        </ul>
 
-    <div className="App">
+      </nav>
+        <Routes>
+          <Route path='/reviews/new' element={<ReviewForm setReviews={setReviews}/>}/>
 
-      <ShowSearch queryByShow = {queryByShow} setQueryByShow={setQueryByShow} handleSearch={handleSearch} />
+          <Route path="/reviews" element={<ReviewContainer />}/> 
+          
+          <Route path='/' element={<><ShowSearch queryByShow =   {queryByShow} setQueryByShow= {setQueryByShow} handleSearch= {handleSearch} />  <ShowContainer someShows= {someShows} /> </>} />
+          
+        </Routes>
+      </main>
 
-      <ShowContainer someShows={someShows} />
-      <ReviewForm 
-        setReviews={setReviews}/>
-    </div>
   );
 }
 

@@ -20,7 +20,7 @@ const ReviewForm = ({setReviews}) => {
       name: formData.name,
       review: formData.review
     }
-    fetch('http://localhost:3000/reviews', {
+    fetch('http://localhost:8888/reviews', {
       method: 'POST',
       headers: {
         'Content-Type' : 'application/json'
