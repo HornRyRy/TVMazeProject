@@ -1,6 +1,5 @@
 .App {
   text-align: center; 
-
 }
 
 .App-logo {
@@ -19,7 +18,6 @@ body {
   background-size:cover;
   background-attachment:fixed;
   color:rgb(14, 12, 12)
-
 }
 
 
@@ -42,26 +40,51 @@ body {
   flex-wrap: wrap;
 }
 
-.searchCard {
+#searchCard {
   flex-direction: column;
   background-color: rgba(211,211,211,.7);
   margin:1%;
   width: 15rem;
   height: 25rem;
-  box-shadow: 6px 9px black
+  box-shadow: 6px 9px black;
+  color: white;
 }
 
-#header {
-  color:white;
+.header {
   display:block;
   background-color: black;
-  display: flex;
-  flex-direction: column;
-
-  width:100%;
+  align-content: center;
+  display: grid;
+  justify-content: center;
+  position:sticky;
+  top:0;
 }
 
-#searchInput {
-  width: 25%;
-  justify-content: center;display:grid;
-}
+.label {
+  color:white;
+  }
+
+  .siteTitle {
+    color:white;
+    font-size:2rem;
+  }
+
+  #reviews {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    bottom: 0;
+    margin:auto;
+    position:fixed;
+    left:38%;
+
+  }
+
+  .submitButton {
+    width: 8rem;
+    margin:auto;
+  }
+
+  #text {
+    color:white;
+  }

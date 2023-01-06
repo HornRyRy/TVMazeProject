@@ -1,0 +1,27 @@
+{
+  "reviews": [
+    {
+      "name": "asdf",
+      "review": "sadf",
+      "id": 2
+    },
+    {
+      "name": "asdfgbtrefvrd",
+      "review": "safdgtnytgrf",
+      "id": 3
+    },
+    {
+      "name": "sadfghgnfbdvdcfertynhgmjhg f",
+      "review": "svdfgfnhmj,mhngfv dcsdsrgtymjh gfds",
+      "id": 4
+    }
+  ],
+  "favorites": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    }
+  ]
+}

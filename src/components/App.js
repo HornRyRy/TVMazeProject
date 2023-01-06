@@ -3,7 +3,9 @@ import React from 'react'
 import { useState, useEffect } from 'react';
 import ShowContainer from './ShowContainer';
 import ShowSearch from './ShowSearch';
-
+import { Route, Routes, Link}  from 'react-router-dom';
+import ReviewForm from './ReviewForm';
+import ReviewContainer from './ReviewContainer';
 
 
 //Fetch call variables - will likely delete block after project has been completed
@@ -47,7 +49,7 @@ const byActor = "https://api.tvmaze.com/search/people?q=terry%20crews"
 
 
 function App() {
-
+  const [reviews, setReviews] = useState([])
   const [someShows, setSomeShows] = useState([])
   const [queryByShow, setQueryByShow] = useState([])
 
@@ -55,9 +57,6 @@ function App() {
   const hardCodedSearchVariable = "simpsons"
   const varQuery = `https://api.tvmaze.com/search/shows?q=${queryByShow}`
   
-
-
-
   //for now, query by shows 
 const fetchData = async () =>{
   try{
@@ -83,12 +82,26 @@ const handleSearch = event => {
 
 
   return (
-    <div className="App">
+      <main className="App">
+      
+      <nav>
+        <ul className='label'>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/reviews/new">Create New Review</Link></li>
+          <li><Link to="/reviews">Reviews</Link></li>
+        </ul>
 
-      <ShowSearch queryByShow = {queryByShow} setQueryByShow={setQueryByShow} handleSearch={handleSearch} />
+      </nav>
+        <Routes>
+          <Route path='/reviews/new' element={<ReviewForm setReviews={setReviews}/>}/>
 
-      <ShowContainer someShows={someShows} />
-    </div>
+          <Route path="/reviews" element={<ReviewContainer />}/> 
+          
+          <Route path='/' element={<><ShowSearch queryByShow =   {queryByShow} setQueryByShow= {setQueryByShow} handleSearch= {handleSearch} />  <ShowContainer someShows= {someShows} /> </>} />
+          
+        </Routes>
+      </main>
+
   );
 }
 
