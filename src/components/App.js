@@ -51,7 +51,8 @@ const byActor = "https://api.tvmaze.com/search/people?q=terry%20crews"
 function App() {
   const [reviews, setReviews] = useState([])
   const [someShows, setSomeShows] = useState([])
-  const [queryByShow, setQueryByShow] = useState([])
+  const [queryByShow, setQueryByShow] = useState(['Family Game Fight'])
+
 
 
   const hardCodedSearchVariable = "simpsons"
@@ -73,11 +74,13 @@ useEffect(() =>{
   fetchData()
 }, [varQuery])        //dependencies array - run once if array is empty
 
+
+
 const handleSearch = event => {
   setQueryByShow(event.target.value)
-  console.log(event.target.value)
-  console.log("in handleSearch APP")
-  console.log(queryByShow)
+  // console.log(event.target.value)
+  // console.log("in handleSearch APP")
+  // console.log(queryByShow)
 }
 
 
@@ -85,10 +88,10 @@ const handleSearch = event => {
       <main className="App">
       
       <nav>
-        <ul className='label'>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/reviews/new">Create New Review</Link></li>
-          <li><Link to="/reviews">Reviews</Link></li>
+        <ul id='navBar'>
+          <Link to="/">Home</Link>
+          <Link to="/reviews/new">Create New Review</Link>
+          <Link to="/reviews">Reviews</Link>
         </ul>
 
       </nav>

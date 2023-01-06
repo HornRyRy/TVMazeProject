@@ -1,11 +1,15 @@
 import React, {useState} from 'react'
 
 const Show = ({status="not found", name="not found", img }) => {
-
-  const handleClick = async (e) =>{
+  const [count, setCount] = useState(0)
+  
+  const handleClick = async (e) => {
+    setCount(count+1)
     //console.log("inside handleclick")
     const postFavorite = {
-     
+      name: {name},
+      status:{status},
+      img:{img}
     }
     const resp = await fetch("http://localhost:8888/favorites",{
         headers: {
@@ -16,8 +20,6 @@ const Show = ({status="not found", name="not found", img }) => {
         
     })
 }
-
-
 
   return (
     <div id = {'searchCard'}>
@@ -33,6 +35,7 @@ const Show = ({status="not found", name="not found", img }) => {
           className='likeButton'
           name='likeBtn'
           >👍</button>
+          <p>{count} Likes</p>
         
 
     </div>

@@ -21,7 +21,7 @@ body {
 }
 
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -31,13 +31,13 @@ body {
   font-size: calc(10px + 2vmin);
   color: white;
   border: 10px solid black;
-}
+} */
 
 #searchResultCard {
-  border: 3px solid black;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  height: 50%;
 }
 
 #searchCard {
@@ -48,7 +48,8 @@ body {
   height: 25rem;
   box-shadow: 6px 9px black;
   color: white;
-}
+  margin-left: auto;
+  margin-right: auto}
 
 .header {
   display:block;
@@ -73,11 +74,8 @@ body {
     display: flex;
     flex-direction: column;
     width: 25%;
-    bottom: 0;
     margin:auto;
-    position:fixed;
     left:38%;
-
   }
 
   .submitButton {
@@ -87,4 +85,36 @@ body {
 
   #text {
     color:white;
+  }
+
+  a { 
+    color:white;
+    display:inline-block;
+    width: 25%;
+    box-shadow: 6px 9px black;
+    background-color:rgba(211,211,211,.7)
+  }
+
+  a:hover {
+    background-color:rgb(255,22,83);
+    color:black;
+  }
+
+  #reviewContainer {
+    display:flex;
+    /* overflow: scroll; */
+    order:3;
+    height:10rem;
+  }
+
+  .reviewCard {
+  flex-direction: column;
+  background-color: rgba(211,211,211,.7);
+  margin:1%;
+  width: 15rem;
+  height: 25rem;
+  box-shadow: 6px 9px black;
+  color: white;
+  overflow: scroll;
+
   }
