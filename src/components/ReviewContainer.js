@@ -1,19 +1,9 @@
-
-import React, { useEffect, useState } from 'react'
-import Reviews from './Reviews'
+import React from 'react'
 
 const ReviewContainer = () => {
-    const [showReview, setShowReview] = useState({})
-
-    useEffect(() => {
-        fetch('http://localhost:8888/reviews')
-            .then(res => res.json())
-            .then(review => setShowReview(review))
-      }, [])
-
   return (
     <div>
-        <Reviews name={showReview.name} review={showReview.review}/>
+      <p id='text'> BOTTOM O' THE PAGE</p>
     </div>
   )
 }
