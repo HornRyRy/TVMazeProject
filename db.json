@@ -1,27 +1,22 @@
 {
   "reviews": [
     {
-      "name": "asdf",
-      "review": "sadf",
-      "id": 2
+      "name": "BattleStar Galactica",
+      "review": "fuck yeah",
+      "id": 5
     },
     {
-      "name": "asdfgbtrefvrd",
-      "review": "safdgtnytgrf",
-      "id": 3
+      "name": "Star Trek",
+      "review": "DOPE",
+      "id": 6
     },
     {
-      "name": "sadfghgnfbdvdcfertynhgmjhg f",
-      "review": "svdfgfnhmj,mhngfv dcsdsrgtymjh gfds",
-      "id": 4
+      "name": "Star Trek:Discovery",
+      "review": "FUCK YEAH",
+      "id": 7
     }
   ],
   "favorites": [
-    {
-      "id": 1
-    },
-    {
-      "id": 2
-    }
+
   ]
 }

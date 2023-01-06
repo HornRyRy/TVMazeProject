@@ -23,14 +23,6 @@ console.log(someShows)
     
         <div id='searchResultCard'>
             {mappedShows}
-            {/* {someShows.map(show => <Show 
-            key={show.show.id} 
-            name={show.show.name} 
-            status = {show.show.status} 
-            // TODO add ternary for img in case server doesn't have image
-            img ={show.show.image.medium}
-            {...show}
-             />)}  */}
         </div>
 
         
