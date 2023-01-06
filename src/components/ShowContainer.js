@@ -15,20 +15,17 @@ const mappedShows = someShows.map((show) =>{
         status = {show.show.status}
         img = {show.show.image && show.show.image.medium || ferretSmall }
          {...show}
+        mazeId={show.show.id}
          />)
   })
 console.log(someShows)
 
     return (
-    
         <div id='searchResultCard'>
             {mappedShows}
         </div>
-
-        
   )
-
-  
+ 
 }
 
 export default ShowContainer;

@@ -14,9 +14,913 @@
       "name": "Star Trek:Discovery",
       "review": "FUCK YEAH",
       "id": 7
+    },
+    {
+      "name": "Stare Trek: Enterprise",
+      "review": "I was really disappointed that the writers felt that time travel was a viable story line direction to go into in a Star Trek series set before Captain Kirk and the man, myth, the legend, Captain Jean Luc Picard! \n\nEven we know time travel is an impossibility when talking about traveling.\n\nAnd we're still powered by fossil fuels! ",
+      "id": 8
     }
   ],
   "favorites": [
-
+    {
+      "name": {
+        "name": "Family Game Fight!"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/388/971145.jpg"
+      },
+      "id": 1
+    },
+    {
+      "name": {
+        "name": "Family Game Fight!"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/388/971145.jpg"
+      },
+      "id": 2
+    },
+    {
+      "name": {
+        "name": "Family Game Fight!"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/388/971145.jpg"
+      },
+      "id": 3
+    },
+    {
+      "name": {
+        "name": "Family Game Fight!"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/388/971145.jpg"
+      },
+      "id": 4
+    },
+    {
+      "name": {
+        "name": "Family Game Fight!"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/388/971145.jpg"
+      },
+      "id": 5
+    },
+    {
+      "name": {
+        "name": "Family Game Fight!"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/388/971145.jpg"
+      },
+      "id": 6
+    },
+    {
+      "name": {
+        "name": "Family Game Fight!"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/388/971145.jpg"
+      },
+      "id": 7
+    },
+    {
+      "name": {
+        "name": "Family Game Fight!"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/388/971145.jpg"
+      },
+      "id": 8
+    },
+    {
+      "name": {
+        "name": "Family Game Fight!"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/388/971145.jpg"
+      },
+      "id": 9
+    },
+    {
+      "name": {
+        "name": "Family Game Fight!"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/388/971145.jpg"
+      },
+      "id": 10
+    },
+    {
+      "name": {
+        "name": "Family Game Fight!"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/388/971145.jpg"
+      },
+      "id": 11
+    },
+    {
+      "name": {
+        "name": "Family Game Fight!"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/388/971145.jpg"
+      },
+      "id": 12
+    },
+    {
+      "name": {
+        "name": "Family Game Fight!"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/388/971145.jpg"
+      },
+      "id": 13
+    },
+    {
+      "name": {
+        "name": "Family Game Fight!"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/388/971145.jpg"
+      },
+      "id": 14
+    },
+    {
+      "name": {
+        "name": "Family Game Fight!"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/388/971145.jpg"
+      },
+      "id": 15
+    },
+    {
+      "name": {
+        "name": "Family Game Fight!"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/388/971145.jpg"
+      },
+      "id": 16
+    },
+    {
+      "name": {
+        "name": "Family Game Fight!"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/388/971145.jpg"
+      },
+      "id": 17
+    },
+    {
+      "name": {
+        "name": "Family Game Fight!"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/388/971145.jpg"
+      },
+      "id": 18
+    },
+    {
+      "name": {
+        "name": "Family Game Fight!"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/388/971145.jpg"
+      },
+      "id": 19
+    },
+    {
+      "name": {
+        "name": "Family Game Fight!"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/388/971145.jpg"
+      },
+      "id": 20
+    },
+    {
+      "name": {
+        "name": "Family Game Fight!"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/388/971145.jpg"
+      },
+      "id": 21
+    },
+    {
+      "name": {
+        "name": "Family Game Fight!"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/388/971145.jpg"
+      },
+      "id": 22
+    },
+    {
+      "name": {
+        "name": "Family Game Fight!"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/388/971145.jpg"
+      },
+      "id": 23
+    },
+    {
+      "name": {
+        "name": "Family Game Fight!"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/388/971145.jpg"
+      },
+      "id": 24
+    },
+    {
+      "name": {
+        "name": "Family Game Fight!"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/388/971145.jpg"
+      },
+      "id": 25
+    },
+    {
+      "name": {
+        "name": "Family Game Fight!"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/388/971145.jpg"
+      },
+      "id": 26
+    },
+    {
+      "name": {
+        "name": "Star Trek: Odyssey"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/292/730803.jpg"
+      },
+      "id": 27
+    },
+    {
+      "name": {
+        "name": "Star Trek: Section 31"
+      },
+      "status": {
+        "status": "In Development"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/296/741269.jpg"
+      },
+      "id": 28
+    },
+    {
+      "name": {
+        "name": "Star Trek: Section 31"
+      },
+      "status": {
+        "status": "In Development"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/296/741269.jpg"
+      },
+      "id": 29
+    },
+    {
+      "name": {
+        "name": "Star Trek: Section 31"
+      },
+      "status": {
+        "status": "In Development"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/296/741269.jpg"
+      },
+      "id": 30
+    },
+    {
+      "name": {
+        "name": "Star Trek: Section 31"
+      },
+      "status": {
+        "status": "In Development"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/296/741269.jpg"
+      },
+      "id": 31
+    },
+    {
+      "name": {
+        "name": "Star Trek: Section 31"
+      },
+      "status": {
+        "status": "In Development"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/296/741269.jpg"
+      },
+      "id": 32
+    },
+    {
+      "name": {
+        "name": "Star Trek: Section 31"
+      },
+      "status": {
+        "status": "In Development"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/296/741269.jpg"
+      },
+      "id": 33
+    },
+    {
+      "name": {
+        "name": "Star Trek: Section 31"
+      },
+      "status": {
+        "status": "In Development"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/296/741269.jpg"
+      },
+      "id": 34
+    },
+    {
+      "name": {
+        "name": "Star Trek: Odyssey"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/292/730803.jpg"
+      },
+      "id": 35
+    },
+    {
+      "name": {
+        "name": "Star Trek: Odyssey"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/292/730803.jpg"
+      },
+      "id": 36
+    },
+    {
+      "name": {
+        "name": "Star Trek: Odyssey"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/292/730803.jpg"
+      },
+      "id": 37
+    },
+    {
+      "name": {
+        "name": "Star Trek: Odyssey"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/292/730803.jpg"
+      },
+      "id": 38
+    },
+    {
+      "name": {
+        "name": "Star Trek: Odyssey"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/292/730803.jpg"
+      },
+      "id": 39
+    },
+    {
+      "name": {
+        "name": "Star Trek: Odyssey"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/292/730803.jpg"
+      },
+      "id": 40
+    },
+    {
+      "name": {
+        "name": "Star Trek: Odyssey"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/292/730803.jpg"
+      },
+      "id": 41
+    },
+    {
+      "name": {
+        "name": "Star Trek Continues"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/105/263130.jpg"
+      },
+      "id": 42
+    },
+    {
+      "name": {
+        "name": "Star Trek Continues"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/105/263130.jpg"
+      },
+      "id": 43
+    },
+    {
+      "name": {
+        "name": "Star Trek Continues"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/105/263130.jpg"
+      },
+      "id": 44
+    },
+    {
+      "name": {
+        "name": "Star Trek Continues"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/105/263130.jpg"
+      },
+      "id": 45
+    },
+    {
+      "name": {
+        "name": "Star Trek Continues"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/105/263130.jpg"
+      },
+      "id": 46
+    },
+    {
+      "name": {
+        "name": "Star Trek Continues"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/105/263130.jpg"
+      },
+      "id": 47
+    },
+    {
+      "name": {
+        "name": "Star Trek Continues"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/105/263130.jpg"
+      },
+      "id": 48
+    },
+    {
+      "name": {
+        "name": "Star Trek Continues"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/105/263130.jpg"
+      },
+      "id": 49
+    },
+    {
+      "name": {
+        "name": "Star Trek Continues"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/105/263130.jpg"
+      },
+      "id": 50
+    },
+    {
+      "name": {
+        "name": "Star Trek Continues"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/105/263130.jpg"
+      },
+      "id": 51
+    },
+    {
+      "name": {
+        "name": "Star Trek Continues"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/105/263130.jpg"
+      },
+      "id": 52
+    },
+    {
+      "name": {
+        "name": "Star Trek Continues"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/105/263130.jpg"
+      },
+      "id": 53
+    },
+    {
+      "name": {
+        "name": "Star Trek Continues"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/105/263130.jpg"
+      },
+      "id": 54
+    },
+    {
+      "name": {
+        "name": "Star Trek Continues"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/105/263130.jpg"
+      },
+      "id": 55
+    },
+    {
+      "name": {
+        "name": "Star Trek Continues"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/105/263130.jpg"
+      },
+      "id": 56
+    },
+    {
+      "name": {
+        "name": "Star Trek Continues"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/105/263130.jpg"
+      },
+      "id": 57
+    },
+    {
+      "name": {
+        "name": "Star Trek Continues"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/105/263130.jpg"
+      },
+      "id": 58
+    },
+    {
+      "name": {
+        "name": "Star Trek Continues"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/105/263130.jpg"
+      },
+      "id": 59
+    },
+    {
+      "name": {
+        "name": "Star Trek Continues"
+      },
+      "status": {
+        "status": "Ended"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/105/263130.jpg"
+      },
+      "id": 60
+    },
+    {
+      "name": {
+        "name": "Star Trek: Lower Decks"
+      },
+      "status": {
+        "status": "Running"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/266/666324.jpg"
+      },
+      "id": 61
+    },
+    {
+      "name": {
+        "name": "Star Trek: Lower Decks"
+      },
+      "status": {
+        "status": "Running"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/266/666324.jpg"
+      },
+      "id": 62
+    },
+    {
+      "name": {
+        "name": "Star Trek: Lower Decks"
+      },
+      "status": {
+        "status": "Running"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/266/666324.jpg"
+      },
+      "id": 63
+    },
+    {
+      "name": {
+        "name": "Star Trek: Lower Decks"
+      },
+      "status": {
+        "status": "Running"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/266/666324.jpg"
+      },
+      "id": 64
+    },
+    {
+      "name": {
+        "name": "Star Trek: Lower Decks"
+      },
+      "status": {
+        "status": "Running"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/266/666324.jpg"
+      },
+      "id": 65
+    },
+    {
+      "name": {
+        "name": "Star Trek: Lower Decks"
+      },
+      "status": {
+        "status": "Running"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/266/666324.jpg"
+      },
+      "id": 66
+    },
+    {
+      "name": {
+        "name": "Star Trek: Lower Decks"
+      },
+      "status": {
+        "status": "Running"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/266/666324.jpg"
+      },
+      "id": 67
+    },
+    {
+      "name": {
+        "name": "Star Trek: Lower Decks"
+      },
+      "status": {
+        "status": "Running"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/266/666324.jpg"
+      },
+      "id": 68
+    },
+    {
+      "name": {
+        "name": "Star Trek: Discovery"
+      },
+      "status": {
+        "status": "Running"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/364/911588.jpg"
+      },
+      "id": 69
+    },
+    {
+      "name": {
+        "name": "Star Trek: Discovery"
+      },
+      "status": {
+        "status": "Running"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/364/911588.jpg"
+      },
+      "id": 70
+    },
+    {
+      "name": {
+        "name": "Star Trek: Discovery"
+      },
+      "status": {
+        "status": "Running"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/364/911588.jpg"
+      },
+      "id": 71
+    },
+    {
+      "name": {
+        "name": "Star Trek: Discovery"
+      },
+      "status": {
+        "status": "Running"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/364/911588.jpg"
+      },
+      "id": 72
+    },
+    {
+      "name": {
+        "name": "Star Trek: Discovery"
+      },
+      "status": {
+        "status": "Running"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/364/911588.jpg"
+      },
+      "id": 73
+    },
+    {
+      "name": {
+        "name": "Star Trek: Discovery"
+      },
+      "status": {
+        "status": "Running"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/364/911588.jpg"
+      },
+      "id": 74
+    },
+    {
+      "name": {
+        "name": "Star Trek: Discovery"
+      },
+      "status": {
+        "status": "Running"
+      },
+      "img": {
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/364/911588.jpg"
+      },
+      "id": 75
+    }
   ]
 }

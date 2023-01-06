@@ -89,7 +89,14 @@ body {
   a { 
     color:white;
     display:inline-block;
-    width: 33.33%;
+    width: 25%;
+    box-shadow: 6px 9px black;
+    background-color:rgba(211,211,211,.7)
+  }
+
+  a:hover {
+    background-color:rgb(255,22,83);
+    color:black;
   }
 
   #reviewContainer {

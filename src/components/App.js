@@ -78,9 +78,9 @@ useEffect(() =>{
 
 const handleSearch = event => {
   setQueryByShow(event.target.value)
-  console.log(event.target.value)
-  console.log("in handleSearch APP")
-  console.log(queryByShow)
+  // console.log(event.target.value)
+  // console.log("in handleSearch APP")
+  // console.log(queryByShow)
 }
 
 
