@@ -29,7 +29,7 @@ const Show = ({status="not found", name="not found", img }) => {
         src = {img}
         alt = {name}
         />
-
+        <br/>
         <button 
           onClick={handleClick} 
           className='likeButton'

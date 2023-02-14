@@ -20,36 +20,26 @@ body {
   color:rgb(14, 12, 12)
 }
 
-
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  border: 10px solid black;
-} */
-
 #searchResultCard {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   height: 50%;
+
 }
 
 #searchCard {
-  flex-direction: column;
   background-color: rgba(211,211,211,.7);
   margin:1%;
-  width: 15rem;
+  width: 15rem; 
   height: 25rem;
   box-shadow: 6px 9px black;
   color: white;
-  margin-left: auto;
-  margin-right: auto}
+  /* margin-left: auto;
+  margin-right: auto; */
+  justify-content: space-around;
+}
+
 
 .header {
   display:block;
@@ -102,7 +92,6 @@ body {
 
   #reviewContainer {
     display:flex;
-    /* overflow: scroll; */
     order:3;
     height:10rem;
   }
@@ -111,10 +100,25 @@ body {
   flex-direction: column;
   background-color: rgba(211,211,211,.7);
   margin:1%;
-  width: 15rem;
+  width: 20rem;
   height: 25rem;
   box-shadow: 6px 9px black;
   color: white;
   overflow: scroll;
 
+  }
+
+  
+  @media screen and (max-width: 768px) {
+    #searchCard {
+      background-color: rgba(211,211,211,.7);
+      
+      width: 20rem; 
+      height: 27rem;
+      box-shadow: 6px 9px black;
+      color: white;
+      /* margin-left: auto;
+      margin-right: auto; */
+      justify-content: space-around;
+    }
   }
